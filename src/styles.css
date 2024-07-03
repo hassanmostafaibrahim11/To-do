@@ -1,0 +1,84 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: 96vh;
+  width: 25%;
+  margin: auto;
+}
+
+body {
+  background-color: antiquewhite;
+}
+.container {
+  border-radius: 10px;
+  padding: 5px;
+  min-height: 80vh;
+  background-color: #fdedc0;
+  background-image: url("https://www.transparenttextures.com/patterns/worn-dots.png");
+}
+h2 {
+  background-color: rgb(255, 108, 189);
+  color: #fff;
+  text-align: center;
+  margin: 10px 0px;
+  font-family: cursive;
+  font-style: italic;
+}
+input {
+  background-color: rgb(253, 190, 225);
+  border: none;
+  outline: none;
+  padding: 10px;
+  border-radius: 5px;
+  font-family: cursive;
+  padding-top: 10px;
+}
+button {
+  border-radius: 100%;
+  border: none;
+  outline: none;
+  color: #fff;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 3px;
+  margin: 10px;
+}
+ul {
+  list-style-type: none;
+  width: 80%;
+  border-radius: 5px;
+  margin: 10px 33px;
+  text-align: left;
+  background-color: #ffc8e8;
+  padding-left: 0px;
+}
+footer {
+  position: sticky;
+  top: 99%;
+}
+h5 {
+  color: rgb(248, 156, 156);
+  font-family: serif;
+}
+li {
+  text-align: left;
+  display: inline;
+  color: rgb(255, 72, 185);
+  font-family: cursive;
+  font-size: small;
+  font-weight: bold;
+  position: relative;
+  padding: 20px;
+}
+.delete {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+  width: 30px;
+  height: 30px;
+  background-color: rgb(255, 97, 184);
+}
+.add {
+  cursor: pointer;
+  background-color: rgb(255, 97, 184);
+}
